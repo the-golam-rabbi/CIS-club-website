@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIU_CIS_Club_join</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    
+   <!--nav bar-->
+   <nav>
+    <ul class ="nav-links">
+        <li> 
+            <a href = "index.html">Home</a>
+        </li>
+        <li> 
+            <a href = "about.html">About</a>
+        </li>
+        <li> 
+            <a href = "events.html">Events</a>
+        </li>
+        <li> 
+            <a href = "join.html">Join</a>
+        </li>
+        <li> 
+            <a href = "resources.html">Resources</a>
+        </li>
+        <li> 
+            <a href = "gallery.html">Gallery</a>
+        </li>
+        <li> 
+            <a href = "contact.html">Contact</a>
+        </li>
+    </ul>
+
+    <div class = "logo"> <img src ="clublogo.png" width = "40px"> </div>
+
+   </nav>
+
+
+
+
+
+<section class="benefits">
+    <h1 class="benefits-title">Why join us?</h1>
+    <ul class="benefits-list">
+        <li>We help you build a strong foundation of programming and problem solving through bootcamps, competitions and workshops</li>
+        <li>We arrange various sports tournaments, encouraging everyone to engage in physical activities and build strong bonds with peers</li>
+        <li>Our cultural programs are to make sure everyone has a great time learning and networking while enjoying together</li>
+    </ul>
+</section>
+
+
+
+
+
+
+
+   <div class="form-container">
+       <h1 class="form-title">Join Us</h1>
+       
+<div class="form-container">
+       <h1 class="form-title">Membership form</h1>
+       
+       <form class="join-form" id="joinForm">
+           <div class="form-group">
+               <label for="name">Name:</label>
+               <input type="text" id="name" name="name" pattern="[A-Za-z\s]+" title="Please enter letters only" required>
+           </div>
+
+           <div class="form-group">
+               <label for="student-id">Student ID:</label>
+               <input type="text" id="student-id" name="student-id" pattern="[\d\-]+" placeholder="xxx-xx-xxx" title="Please enter numbers and dashes only" required>
+           </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="example@email.com" required>
+            </div>
+
+           
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9\+\-\s]+" placeholder="+880 1XXX-XXXXXX" title="Please enter a valid phone number" required>
+            </div>
+
+           <div class="form-group">
+               <label for="cgpa">Average CGPA:</label>
+               <input type="text" id="cgpa" name="cgpa" pattern="[0-9]*\.?[0-9]+" title="Please enter numbers only" required>
+           </div>
+
+           <div class="form-group">
+               <label>Have you ever worked for a club before?</label>
+               <div class="radio-group">
+                   <label class="radio-label">
+                       <input type="radio" name="club-experience" value="yes" required>
+                       Yes
+                   </label>
+                   <label class="radio-label">
+                       <input type="radio" name="club-experience" value="no">
+                       No
+                   </label>
+               </div>
+           </div>
+
+           <div class="form-group">
+               <label for="club-details">If yes, then which club was it, and for how long?</label>
+               <textarea id="club-details" name="club-details" rows="3"></textarea>
+           </div>
+
+           <div class="form-group">
+               <label>Are you interested in volunteer work?</label>
+               <div class="radio-group">
+                   <label class="radio-label">
+                       <input type="radio" name="volunteer" value="yes" required>
+                       Yes
+                   </label>
+                   <label class="radio-label">
+                       <input type="radio" name="volunteer" value="no">
+                       No
+                   </label>
+               </div>
+           </div>
+
+           <button type="submit" class="submit-btn">Submit</button>
+       </form>
+   </div>
+ </div>
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <div class="footer-logo">
+                <img src="clublogo.png" alt="Club Logo">
+            </div>
+            <h3>DIU CIS Club</h3>
+        </div>
+        
+        <div class="footer-section">
+            <h2>About DIU CIS Club</h2>
+            <p>DIU CIS Club is a departmental club, exclusivly for the students of the department of CIS. Our goal is to make education and learning more fun. We feture 3 wings- Programming, Sports and Cultural </p>
+        </div>
+        
+        <div class="footer-section">
+            <h2>Find Us On</h2>
+            <div class="social-icons">
+                <a href="#"><img src="icons/fb.png" alt="Facebook"></a>
+                <a href="#"><img src="icons/ig.png" alt="Instagram"></a>
+                <a href="#"><img src="icons/lin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>Copyright © 2025 DIU CIS club | All Rights Reserved</p>
+    </div>
+    
+    <a href="#" class="scroll-to-top">
+        <img src="icons/top.png">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+</footer>
+
+
+
+
+
+</body>
+</html> 

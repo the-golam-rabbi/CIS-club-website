@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIU_CIS_Club_events</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    
+   <nav>
+    <ul class ="nav-links">
+        <li> 
+            <a href = "index.html">Home</a>
+        </li>
+        <li> 
+            <a href = "about.html">About</a>
+        </li>
+        <li> 
+            <a href = "events.html">Events</a>
+        </li>
+        <li> 
+            <a href = "join.html">Join</a>
+        </li>
+        <li> 
+            <a href = "resources.html">Resources</a>
+        </li>
+        <li> 
+            <a href = "gallery.html">Gallery</a>
+        </li>
+        <li> 
+            <a href = "contact.html">Contact</a>
+        </li>
+    </ul>
+
+    <div class = "logo"> <img src ="clublogo.png" width = "40px"> </div>
+
+   </nav>
+   
+
+
+<h2 class="events-heading">Ongoing/upcoming events</h2>
+<section class="events-section">
+    <div class="events-container">
+        <div class="event-card">
+            <img src="event_img/event1.jpg" alt="AI Fest Event 1">
+        </div>
+        <div class="event-card">
+            <img src="event_img/event1.jpg" alt="AI Fest Event 2">
+        </div>
+        <div class="event-card">
+            <img src="event_img/event1.jpg" alt="AI Fest Event 3">
+        </div>
+    </div>
+</section>
+
+
+
+
+<h2 class="events-heading">Successfully finished events</h2>
+
+<!-- Filter Buttons -->
+<div class="filter-container">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="programming">Programming</button>
+    <button class="filter-btn" data-filter="sports">Sports</button>
+    <button class="filter-btn" data-filter="cultural">Cultural</button>
+</div>
+
+<section class="past-events-section">
+    <div class="past-events-container">
+
+<!-- Event 1 - SPORTS -->
+<a href="gallery.html#event1-gallery" class="past-event-card" data-category="sports">
+    <div class="past-event-image">
+        <img src="past_eve/eve1.png" alt="Event 1">
+    </div>
+    <div class="past-event-info">
+        <span class="event-category-tag sports">Sports</span>
+        <h3>Football tournament</h3>
+        <p class="event-date">01-01-2025</p>
+        <p class="event-description">Lorem ipsum dolor sit amet consectetur adipiscing. This event was held on this specific date and was very successful.</p>
+        <span class="view-gallery-hint">Click to view gallery →</span>
+    </div>
+</a>
+
+<!-- Event 2 - CULTURAL -->
+<a href="gallery.html#event2-gallery" class="past-event-card" data-category="cultural">
+    <div class="past-event-image">
+        <img src="past_eve/eve2.png" alt="Event 2">
+    </div>
+    <div class="past-event-info">
+        <span class="event-category-tag cultural">Cultural</span>
+        <h3>Him utshob</h3>
+        <p class="event-date">01-01-2025</p>
+        <p class="event-description">Lorem ipsum dolor sit amet consectetur adipiscing. This event was held on this specific date and was very successful.</p>
+        <span class="view-gallery-hint">Click to view gallery →</span>
+    </div>
+</a>
+
+<!-- Event 3 - PROGRAMMING -->
+<a href="gallery.html#event3-gallery" class="past-event-card" data-category="programming">
+    <div class="past-event-image">
+        <img src="past_eve/eve3.png" alt="Event 3">
+    </div>
+    <div class="past-event-info">
+        <span class="event-category-tag programming">Programming</span>
+        <h3>Fun with code</h3>
+        <p class="event-date">01-01-2025</p>
+        <p class="event-description">Lorem ipsum dolor sit amet consectetur adipiscing. This event was held on this specific date and was very successful.</p>
+        <span class="view-gallery-hint">Click to view gallery →</span>
+    </div>
+</a>
+
+<!-- Event 4 - SPORTS -->
+<a href="gallery.html#event4-gallery" class="past-event-card" data-category="sports">
+    <div class="past-event-image">
+        <img src="past_eve/eve4.png" alt="Event 4">
+    </div>
+    <div class="past-event-info">
+        <span class="event-category-tag sports">Sports</span>
+        <h3>Cricket Tournament</h3>
+        <p class="event-date">01-01-2025</p>
+        <p class="event-description">Lorem ipsum dolor sit amet consectetur adipiscing. This event was held on this specific date and was very successful.</p>
+        <span class="view-gallery-hint">Click to view gallery →</span>
+    </div>
+</a>
+
+
+    </div>
+</section>
+
+
+
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <div class="footer-logo">
+                <img src="clublogo.png" alt="Club Logo">
+            </div>
+            <h3>DIU CIS Club</h3>
+        </div>
+        
+        <div class="footer-section">
+            <h2>About DIU CIS Club</h2>
+            <p>DIU CIS Club is a departmental club, exclusivly for the students of the department of CIS. Our goal is to make education and learning more fun. We feture 3 wings- Programming, Sports and Cultural </p>
+        </div>
+        
+        <div class="footer-section">
+            <h2>Find Us On</h2>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/diucisclub"><img src="icons/fb.png" alt="Facebook"></a>
+                <a href="#"><img src="icons/ig.png" alt="Instagram"></a>
+                <a href="#"><img src="icons/lin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>Copyright © 2025 DIU CIS club | All Rights Reserved</p>
+    </div>
+    
+    <a href="#" class="scroll-to-top">
+        <img src="icons/top.png">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+</footer>
+
+
+<script src="app.js"></script>
+
+
+</body>
+</html> 
